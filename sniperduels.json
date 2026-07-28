@@ -1,0 +1,538 @@
+{
+  "Skybox": {
+    "Bk": 91458024,
+    "Dn": 91457980,
+    "Ft": 91458024,
+    "Lf": 91458024,
+    "Rt": 91458024,
+    "Up": 91458002
+  },
+  "Hit/Kill Sounds": {
+    "Knife Hit": {
+      "Skin Specific": {
+        "Cash": 9113567674,
+        "Golden Hammer": [
+          17443385161,
+          17443384903,
+          17443385043
+        ],
+        "Golden Pan": 109433817449177
+      },
+      "": [
+        11675079920,
+        11675079837,
+        11675079722
+      ]
+    },
+    "Knife Kill": {
+      "Skin Specific": {
+        "Cash": 9113567674,
+        "Golden Pan": 109433817449177
+      },
+      "": [
+        14893837875,
+        14893837713,
+        14893837578
+      ]
+    },
+    "Sniper Hit": [
+      11609972038,
+      11609972285,
+      11609972515
+    ],
+    "Sniper Headshot Kill": [
+      13603855943,
+      13603855800,
+      13603855876
+    ],
+    "Sniper Kill": [
+      13603855626,
+      13603855689,
+      13603855750
+    ]
+  },
+  "Sniper": {
+    "Model": {
+      "Default": {
+        "Base": 127858935170864,
+        "Bolt": 72813443346614,
+        "BoltEnd": 81044869232712,
+        "Receiver": 128201300413076,
+        "Scope": 98444048909375,
+        "Casing": 112664727845755,
+        "Bullet": 102580142679556,
+        "Follower": 123780696580499,
+        "Magazine": 71751567977314
+      },
+      "AWP": {
+        "Bullet": 105870849567866,
+        "Cartridge": 85894258517970,
+        "Base": 98212428706254,
+        "Bolt": 83784667155789,
+        "BoltEnd": 80033628651356,
+        "FiringPin": 71318276617837,
+        "Follower": 137960558082464,
+        "Magazine": 134426184391145,
+        "Scope": 136372847995789
+      },
+      "Deagle": {
+        "Bullet": 134375670173712,
+        "Shell": 104849344585652,
+        "ExtMagazine": 95811354778158,
+        "Magazine": 102342821578784,
+        "Base": 126030635192545,
+        "Compensator": 105930281430930,
+        "Hammer": 121130593406315,
+        "Long Barrel": 82406632121786,
+        "Scope": 75633602999081,
+        "Slide": 109249678085101
+      },
+      "Intervention": {
+        "Bullet": 129375077181647,
+        "Casing": 102518219142097,
+        "Magazine": 136381340924468,
+        "Barrel": 74174276208908,
+        "Bolt": 112027255359152,
+        "Receiver": 78161580823154,
+        "Ring": 93416508930010,
+        "Scope": 74028457591317
+      },
+      "Shotgun": {
+        "Shell": 118146429750964,
+        "Magazine": 71446406915356,
+        "Base": 111079117848140,
+        "Pump": 104519921864269,
+        "Scope": 79603769095157
+      },
+      "VKS": {
+        "Bullet": 105870849567866,
+        "Cartridge": 85894258517970,
+        "Magazine": 75828081683068,
+        "Barrel": 138493524101572,
+        "Bolt": 113826929068945,
+        "ChargingHandle": 90387722371601,
+        "Receiver": 86737663689996,
+        "Scope": 116652490548111,
+        "Suppressor": 124643042732516,
+        "SuppressorShort": 77794878294941
+      },
+      "Railgun": {
+        "Projectile": 103706959985708,
+        "SabotBottom": 75723127352263,
+        "SabotTop": 95258919648250,
+        "Magazine": 107541228402213,
+        "Base": 115388148142951,
+        "Bolt": 89253234886779,
+        "ChargingHandle": 125270985743316,
+        "Scope": 88216004183300
+      },
+      "Fix": {
+        "Bullet": 124997913469502,
+        "Casing": 113553940969903,
+        "Magazine": 97845711792185,
+        "Base": 109751756919003,
+        "Bolt": 140292329534687,
+        "BoltEnd": 131308773300899,
+        "Scope": 97333894078037
+      },
+      "Mini Fix": {
+        "Bullet": 124997913469502,
+        "Casing": 113553940969903,
+        "Magazine": 117774432413776,
+        "Base": 139826140193649,
+        "Bolt": 75807645201947,
+        "BoltEnd": 86176449395113,
+        "Scope": 127592233724229
+      }
+    },
+    "Texture": {
+      "Default": {
+        "Vanilla": {
+          "Base": {
+            "ColorMap": 97237207569286,
+            "MetalnessMap": 119309367818575,
+            "NormalMap": 107638011543994,
+            "RoughnessMap": 120963236557990,
+            "TexturePackContent": 121102427790141
+          },
+          "Bullet, Casing": {
+            "ColorMap": 126691042154397,
+            "MetalnessMap": 85548868231607,
+            "NormalMap": 72376558790220,
+            "RoughnessMap": 104791509337696,
+            "TexturePackContent": 100907171621950
+          },
+          "Magazine, Follower, Bolt, BoltEnd, Receiver, Scope": {
+            "ColorMap": 71720678584369,
+            "MetalnessMap": 138463349793160,
+            "NormalMap": 85403993249646,
+            "RoughnessMap": 111280711598480,
+            "TexturePackContent": 138055892251089
+          }
+        }
+      },
+      "AWP": {
+        "Vanilla": {
+          "Cartridge, Bullet": {
+            "ColorMap": 129519932510687,
+            "MetalnessMap": 90939623712533,
+            "NormalMap": 95755583637089,
+            "RoughnessMap": 138920801249699,
+            "TexturePackContent": 126936670219772
+          },
+          "Magazine, Follower, Base": {
+            "ColorMap": 134142314617666,
+            "MetalnessMap": 82043894518548,
+            "NormalMap": 73366852945612,
+            "RoughnessMap": 139185737377226,
+            "TexturePackContent": 110155055976593
+          },
+          "FiringPin, BoltEnd, Bolt": {
+            "ColorMap": 118990961649386,
+            "MetalnessMap": 82016419074337,
+            "NormalMap": 91158521807655,
+            "RoughnessMap": 85008206387975,
+            "TexturePackContent": 115647193156879
+          },
+          "Scope": {
+            "ColorMap": 89236309713145,
+            "MetalnessMap": 85135289467388,
+            "NormalMap": 73666417818499,
+            "RoughnessMap": 96691493227443,
+            "TexturePackContent": 134024538913621
+          }
+        }
+      },
+      "Deagle": {
+        "Vanilla": {
+          "Shell, Bullet": {
+            "ColorMap": 104614729223339,
+            "MetalnessMap": 131003799927031,
+            "NormalMap": 115470436438136,
+            "RoughnessMap": 74451757771302,
+            "TexturePackContent": 114544531532348
+          },
+          "Magazine, ExtMagazine, Compensator, LongBarrel": {
+            "ColorMap": 76749876853636,
+            "MetalnessMap": 89945532311319,
+            "NormalMap": 122427234754547,
+            "RoughnessMap": 94903662099291,
+            "TexturePackContent": 104012395864529
+          },
+          "Hammer, Slide, Base": {
+            "ColorMap": 105903567354008,
+            "MetalnessMap": 81568292190223,
+            "NormalMap": 75545058823818,
+            "RoughnessMap": 113767705749243,
+            "TexturePackContent": 117341340108525
+          },
+          "Scope": {
+            "ColorMap": 136260550793253,
+            "MetalnessMap": 137452529455764,
+            "NormalMap": 109471918274702,
+            "RoughnessMap": 121021813157919,
+            "TexturePackContent": 90630108953880
+          }
+        }
+      },
+      "Intervention": {
+        "Vanilla": {
+          "Bullet, Casing": {
+            "ColorMap": 85363822138878,
+            "MetalnessMap": 136945516307460,
+            "NormalMap": 136496189374908,
+            "RoughnessMap": 90516840917993,
+            "TexturePackContent": 99704989450012
+          },
+          "Magazine, Receiver": {
+            "ColorMap": 81442378725701,
+            "MetalnessMap": 106483546201426,
+            "NormalMap": 112127938428701,
+            "RoughnessMap": 86207025082419,
+            "TexturePackContent": 111149210499593
+          },
+          "Barrel, Bolt, Ring": {
+            "ColorMap": 127165047260062,
+            "MetalnessMap": 139510706392801,
+            "NormalMap": 86351061525287,
+            "RoughnessMap": 120697699908688,
+            "TexturePackContent": 124062470534426
+          },
+          "Scope": {
+            "ColorMap": 81137339037049,
+            "MetalnessMap": 90352964881644,
+            "NormalMap": 97075846350020,
+            "RoughnessMap": 92213975270046,
+            "TexturePackContent": 85166713911771
+          }
+        }
+      },
+      "Shotgun": {
+        "Vanilla": {
+          "Shell": {
+            "ColorMap": 122444171725089,
+            "MetalnessMap": 79194674950696,
+            "NormalMap": 80501158901128,
+            "RoughnessMap": 74614879253132,
+            "TexturePackContent": 72131244917407
+          },
+          "Magazine, Scope": {
+            "ColorMap": 87114076924335,
+            "MetalnessMap": 104884823045529,
+            "NormalMap": 138214678338309,
+            "RoughnessMap": 133297642971269,
+            "TexturePackContent": 74384455221290
+          },
+          "Pump, Base": {
+            "ColorMap": 96595913936028,
+            "MetalnessMap": 129690675769592,
+            "NormalMap": 126117230153578,
+            "RoughnessMap": 79961294281869,
+            "TexturePackContent": 112336449872496
+          }
+        }
+      },
+      "VKS": {
+        "Vanilla": {
+          "Cartridge, Bullet": {
+            "ColorMap": 129519932510687,
+            "MetalnessMap": 90939623712533,
+            "NormalMap": 95755583637089,
+            "RoughnessMap": 138920801249699,
+            "TexturePackContent": 126936670219772
+          },
+          "Magazine, Suppressor, Barrel, Bolt, Receiver, SuppressorShort, ChargingHandle": {
+            "ColorMap": 81518110134762,
+            "MetalnessMap": 137610972290363,
+            "NormalMap": 98262390454306,
+            "RoughnessMap": 114687144069910,
+            "TexturePackContent": 137676828074836
+          },
+          "Scope": {
+            "ColorMap": 81120125291410,
+            "MetalnessMap": 129489972797588,
+            "NormalMap": 75494599997013,
+            "RoughnessMap": 82184217373018,
+            "TexturePackContent": 97506035148063
+          }
+        }
+      },
+      "Railgun": {
+        "Vanilla": {
+          "Magazine, Base, Bolt, ChargingHandle, Scope": {
+            "ColorMap": 114375894792360,
+            "MetalnessMap": 98268143447293,
+            "NormalMap": 78227007167919,
+            "RoughnessMap": 94098591983914,
+            "TexturePackContent": 127099026739740
+          }
+        }
+      },
+      "Fix": {
+        "Vanilla": {
+          "Casing, Bullet": {
+            "ColorMap": 88363589711427,
+            "MetalnessMap": 131623410932140,
+            "NormalMap": 118361272088710,
+            "RoughnessMap": 109074286247831,
+            "TexturePackContent": 125333291944992
+          },
+          "Magazine, Scope": {
+            "ColorMap": 70799842814739,
+            "MetalnessMap": 83581559122763,
+            "NormalMap": 72705288619498,
+            "RoughnessMap": 82209934397464,
+            "TexturePackContent": 74725249890588
+          },
+          "BoltEnd, Bolt, Base": {
+            "ColorMap": 132986114993543,
+            "MetalnessMap": 131904340447297,
+            "NormalMap": 94017182497935,
+            "RoughnessMap": 80724142026517,
+            "TexturePackContent": 84931428959095
+          }
+        }
+      },
+      "MiniFix": {
+        "Vanilla": {
+          "Casing, Bullet": {
+            "ColorMap": 88363589711427,
+            "MetalnessMap": 131623410932140,
+            "NormalMap": 118361272088710,
+            "RoughnessMap": 109074286247831,
+            "TexturePackContent": 125333291944992
+          },
+          "Magazine, Scope": {
+            "ColorMap": 70799842814739,
+            "MetalnessMap": 83581559122763,
+            "NormalMap": 72705288619498,
+            "RoughnessMap": 82209934397464,
+            "TexturePackContent": 74725249890588
+          },
+          "Base, Bolt, BoltEnd": {
+            "ColorMap": 133183691946900,
+            "MetalnessMap": 109273943201782,
+            "NormalMap": 107979947609258,
+            "RoughnessMap": 88288492502775,
+            "TexturePackContent": 79208904051506
+          }
+        }
+      }
+    }
+  },
+  "Knife": {
+    "Model": {
+      "Default": {
+        "Model": 121422183079343
+      },
+      "Bayonet": {
+        "Model": 98787043404318
+      },
+      "Butterfly": {
+        "Arm Bottom": 103068419939079,
+        "Arm Top": 137026096821577,
+        "Blade": 80663092256498,
+        "Pin": 107968322816119
+      },
+      "Candy Cane": {
+        "Model": 73735398726717
+      },
+      "Cash": {
+        "Model": 80782165718616
+      },
+      "Golden Hammer": {
+        "Grip": 17292510689,
+        "Head": 17292510691,
+        "Shaft": 17292510687
+      },
+      "Karambit": {
+        "Model": 131372486049138
+      },
+      "Katana": {
+        "Base": 106293318282657,
+        "Blade": 86340435497879,
+        "Hilt": 129067481460988
+      },
+      "Kitchen": {
+        "Model": 12253412136
+      },
+      "Pan": {
+        "Model": 89708332951426
+      },
+      "Pixel": {
+        "Model": 12212993110
+      },
+      "Prototype": {
+        "Blade": 91424327468738,
+        "Grip": 120019473429675,
+        "Handguard": 88334618485843
+      },
+      "Shadow Daggers": {
+        "Model": 16803277062
+      },
+      "Survivor": {
+        "Model": 16922373679
+      }
+    },
+    "Texture": {
+      "Default": {
+        "Vanilla": {
+          "ColorMap": 137713212671605,
+          "MetalnessMap": 118221471880456,
+          "NormalMap": 92041807068079,
+          "RoughnessMap": 131154421756151,
+          "TexturePackContent": 125987875681346
+        }
+      },
+      "Karambit": {
+        "Vanilla": {
+          "ColorMap": 84346144810159,
+          "MetalnessMap": 92805075655221,
+          "NormalMap": 102276617280491,
+          "RoughnessMap": 136976176437641,
+          "TexturePackContent": 116385235225604
+        }
+      },
+      "ShadowDaggers": {
+        "Vanilla": {
+          "ColorMap": 16803312130,
+          "MetalnessMap": 16803280242,
+          "NormalMap": 16803280112,
+          "RoughnessMap": 16803279974,
+          "TexturePackContent": 93492639885945
+        }
+      },
+      "Pan": {
+        "ColorMap": 136168800002311,
+        "MetalnessMap": 97309871841386,
+        "NormalMap": 130088266947259,
+        "RoughnessMap": 72805282448954,
+        "TexturePackContent": 112204115839867
+      },
+      "Golden Hammer": {
+        "ColorMap": 112307967626503,
+        "MetalnessMap": 106011431896328,
+        "NormalMap": 92628652620985,
+        "RoughnessMap": 72189924658123,
+        "TexturePackContent": 94595367727911
+      },
+      "Cash": {
+        "ColorMap": 128399379220813,
+        "NormalMap": 97207143288894,
+        "RoughnessMap": 104241570613802,
+        "TexturePackContent": 93804047704485
+      },
+      "CandyCane": {
+        "Vanilla": {
+          "ColorMap": 115305073481303,
+          "MetalnessMap": 72973230232319,
+          "NormalMap": 115832715151666,
+          "RoughnessMap": 96141081229808,
+          "TexturePackContent": 132734615634662
+        }
+      },
+      "Katana": {
+        "Vanilla": {
+          "ColorMap": 128440616267758,
+          "MetalnessMap": 92543628107551,
+          "NormalMap": 75101327727748,
+          "RoughnessMap": 92540797933507,
+          "TexturePackContent": 76426243317470
+        }
+      },
+      "Survivor": {
+        "Vanilla": {
+          "ColorMap": 132131092814061,
+          "MetalnessMap": 104324879738819,
+          "NormalMap": 73510348754753,
+          "RoughnessMap": 126885403566020,
+          "TexturePackContent": 92224584262606
+        }
+      },
+      "Butterfly": {
+        "Vanilla": {
+          "ColorMap": 73335790009685,
+          "MetalnessMap": 135239927959078,
+          "NormalMap": 122254222958631,
+          "RoughnessMap": 120641145409852,
+          "TexturePackContent": 122729087337877
+        }
+      },
+      "Kitchen": {
+        "ColorMap": 12253411941,
+        "NormalMap": 12253412040,
+        "RoughnessMap": 12253411598,
+        "TexturePackContent": 13706470835
+      },
+      "Bayonet": {
+        "Vanilla": {
+          "ColorMap": 86085422818965,
+          "MetalnessMap": 110260443758882,
+          "NormalMap": 106722356110137,
+          "RoughnessMap": 126684108833912,
+          "TexturePackContent": 91647543512985
+        }
+      }
+    }
+  }
+}
