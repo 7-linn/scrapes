@@ -5597,6 +5597,11 @@
                   "EndTime": 1.95
                 }
               },
+              "Pearl Rifle": {
+                "Shoot1": {
+                  "Id": 13010911854
+                }
+              },
               "Tommy Gun": {
                 "Equip": {
                   "Id": 113547428826965,
@@ -5813,6 +5818,20 @@
                   "Id": 13642496052,
                   "Length": 0.86
                 }
+              },
+              "Palm Bow": {
+                "Equip": {
+                  "Id": 13642496052,
+                  "Length": 0.86
+                },
+                "Shoot1": {
+                  "Id": 13642513747
+                },
+                "ChargeRelease": {
+                  "Id": 13676498915,
+                  "Length": 1,
+                  "EndTime": 0.65
+                }
               }
             }
           },
@@ -5952,6 +5971,24 @@
               "Pine Burst": {
                 "Shoot1": {
                   "Id": 13204428113
+                }
+              },
+              "Sand Famas": {
+                "Inspect": {
+                  "Id": 103143768895353
+                },
+                "Shoot1": {
+                  "Id": 131175568572355
+                },
+                "Reload": {
+                  "Id": 106301555292110,
+                  "Length": 2,
+                  "EndTime": 1.2
+                },
+                "ReloadEmpty": {
+                  "Id": 137052028272348,
+                  "Length": 2,
+                  "EndTime": 1.2
                 }
               }
             }
@@ -6138,6 +6175,11 @@
                 "Shoot1": {
                   "Id": 122042727533904
                 }
+              },
+              "Bubble Distortion": {
+                "Shoot1": {
+                  "Id": 122042727533904
+                }
               }
             }
           },
@@ -6184,6 +6226,11 @@
                   "Id": 72422642343011,
                   "Length": 1.05
                 },
+                "Shoot1": {
+                  "Id": 74256235556369
+                }
+              },
+              "Sol Rifle": {
                 "Shoot1": {
                   "Id": 74256235556369
                 }
@@ -6234,7 +6281,7 @@
                   "Id": 109110552816250
                 }
               },
-              "Key Thrower": {
+              "Keythrower": {
                 "Equip": {
                   "Id": 94165284906315,
                   "Length": 0.93
@@ -6249,6 +6296,28 @@
                 },
                 "Inspect": {
                   "Id": 115243339802018
+                }
+              },
+              "Extinguisher": {
+                "Equip": {
+                  "Id": 103358284689768,
+                  "Length": 0.93,
+                  "Loop": true
+                },
+                "Idle": {
+                  "Id": 129017920705486,
+                  "Loop": true
+                },
+                "Sprint": {
+                  "Id": 87337078285666,
+                  "Loop": true
+                },
+                "Inspect": {
+                  "Id": 104438950132421
+                },
+                "Using": {
+                  "Id": 89371056604507,
+                  "Loop": true
                 }
               }
             }
@@ -6490,6 +6559,71 @@
                   "Length": 1.5,
                   "EndTime": 0.38
                 }
+              },
+              "Keyblade": {
+                "Equip": {
+                  "Id": 71122146693569,
+                  "Length": 1
+                },
+                "Idle": {
+                  "Id": 82454119293826,
+                  "Loop": true
+                },
+                "Sprint": {
+                  "Id": 128633256472896,
+                  "Loop": true
+                },
+                "Inspect": {
+                  "Id": 97616096763634
+                },
+                "Shoot1": {
+                  "Id": 133342994953763
+                },
+                "ToBlade": {
+                  "Id": 113802691865914,
+                  "Length": 0.95
+                },
+                "EquipBlade": {
+                  "Id": 99446502932098,
+                  "Length": 0.75
+                },
+                "IdleBlade": {
+                  "Id": 131843319157794,
+                  "Loop": true
+                },
+                "SprintBlade": {
+                  "Id": 134500174597585,
+                  "Loop": true
+                },
+                "InspectBlade": {
+                  "Id": 89200272265860
+                },
+                "Attack1Blade": {
+                  "Id": 137379777979497
+                },
+                "Attack2Blade": {
+                  "Id": 120065158110698
+                },
+                "AttackBladeOnhit": {
+                  "Id": 106102665790978,
+                  "EndTime": 0.25
+                },
+                "AttackBladeOnhit2": {
+                  "Id": 85388894736724,
+                  "EndTime": 0.25
+                },
+                "ToGun": {
+                  "Id": 118420738484910,
+                  "Length": 0.83
+                },
+                "ToGun2": {
+                  "Id": 100458033497778,
+                  "Length": 1.133
+                },
+                "Dash": {
+                  "Id": 124616006659727,
+                  "Loop": true
+                }
               }
             }
           },
@@ -6599,6 +6733,39 @@
                   "Length": 0.65,
                   "Loop": true
                 }
+              },
+              "Shark Minigun": {
+                "Equip": {
+                  "Id": 81664709030327,
+                  "Length": 1
+                },
+                "Idle": {
+                  "Id": 89689066431690,
+                  "Loop": true
+                },
+                "Sprint": {
+                  "Id": 139865959124000,
+                  "Length": 2,
+                  "Loop": true           
+                },
+                "Inspect": {
+                  "Id": 123014402763056
+                },
+                "ChargeStart": {
+                  "Id": 134982381221959,
+                  "Length": 0.8,
+                  "Loop": true
+                },
+                "ChargeLoop": {
+                  "Id": 121730655035520,
+                  "Length": 0.75,
+                  "Loop": true
+                },
+                "ChargeFinish": {
+                  "Id": 103254917833659,
+                  "Length": 0.65,
+                  "Loop": true
+                }
               }
             }
           },
@@ -6662,6 +6829,11 @@
                   "Length": 3.15,
                   "EndTime": 2.4
                 }
+              },
+              "Lemonade Gun": {
+                "Shoot1": {
+                  "Id": 17091647837
+                }
               }
             }
           },
@@ -6693,6 +6865,24 @@
               },
               "Throw": {
                 "Id": 132291298412377
+              }
+            },
+            "Skins": {
+              "Permasand": {
+                "Inspect": {
+                  "Id": 140544068349290
+                },
+                "Shoot1": {
+                  "Id": 109487359043648
+                },
+                "Reload": {
+                  "Id": 72943194687792,
+                  "Length": 2.5,
+                  "EndTime": 1.9
+                },
+                "Throw": {
+                  "Id": 132291298412377
+                }
               }
             }
           },
@@ -6952,6 +7142,54 @@
                   "Length": 0.88,
                   "Loop": true
                 }
+              },
+              "Shark Shotgun": {
+                "Equip": {
+                  "Id": 90362197266411,
+                  "Length": 0.75
+                },
+                "Idle": {
+                  "Id": 83532843952528,
+                  "Loop": true
+                },
+                "Sprint": {
+                  "Id": 120541915592589,
+                  "Loop": true
+                },
+                "Inspect": {
+                  "Id": 138321377796251
+                },
+                "Shoot1": {
+                  "Id": 103569629840651
+                },
+                "ReloadStart": {
+                  "Id": 107086465094007,
+                  "Length": 0.5
+                },
+                "ReloadSegment": {
+                  "Id": 135826654719839,
+                  "Length": 0.4,
+                  "EndTime": 0.12
+                },
+                "ReloadSegmentFinal": {
+                  "Id": 82480781494153,
+                  "Length": 0.4,
+                  "EndTime": 0.12
+                },
+                "ReloadFinish": {
+                  "Id": 82122260805728,
+                  "Length": 0.65,
+                  "EndTime": 0.125
+                },
+                "ReloadEmptyStart": {
+                  "Id": 126506498843699,
+                  "Length": 2.15,
+                  "EndTime": 0.9
+                },
+                "ReloadEmptyFinish2": {
+                  "Id": 125176862542444,
+                  "Length": 0.88
+                }
               }
             }
           },
@@ -7080,6 +7318,52 @@
                 "Shoot1": {
                   "Id": 13269963346,
                   "Length": 0.875
+                }
+              },
+              "Kraken Sniper": {
+                "Equip": {
+                  "Id": 97269161662826,
+                  "Length": 1.16
+                },  
+                "Idle": {
+                  "Id": 122333250697838,
+                  "Loop": true
+                },
+                "Sprint": {
+                  "Id": 80670660427868,
+                  "Loop": true
+                },
+                "Inspect": {
+                  "Id": 79965994888534
+                },
+                "Shoot1": {
+                  "Id": 87253312972326
+                },
+                "Reload": {
+                  "Id": 88102326803932,
+                  "Length": 2.834,
+                  "EndTime": 1.8
+                },
+                "ReloadEmpty": {
+                  "Id": 128301174476805,
+                  "Length": 3.7,
+                  "EndTime": 2.13
+                }
+              },
+              "Campfire Sniper": {
+                "Inspect": {
+                  "Id": 13269934368,
+                  "Length": 0.75
+                },
+                "Reload": {
+                  "Id": 13642104835,
+                  "Length": 2.25,
+                  "EndTime": 1.43
+                },
+                "ReloadEmpty": {
+                  "Id": 13269951125,
+                  "Length": 3.7,
+                  "EndTime": 2.13
                 }
               }
             }
